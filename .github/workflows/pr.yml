@@ -30,4 +30,4 @@ jobs:
       - name: Run Python script
         run: |
           echo hello_world.py
-          python ./hello_world.py
+          python hello_world.py
