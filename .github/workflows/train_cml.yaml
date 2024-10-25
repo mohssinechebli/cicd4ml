@@ -28,7 +28,10 @@ jobs:
        run: |
         python3 preprocess_dataset.py
         python3 train.py
-
+        
+     - name: Setup CML
+       uses: iterative/setup-cml@v2
+       
      - name: Write CML report
        env:
         REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
