@@ -1,6 +1,19 @@
-# Description
+# CICD4ML
+## Description
 The repo ci-cd-for-ml will empower you to streamline your machine learning development processes, enhancing efficiency, reliability, and reproducibility in your projects. Throughout the course, you'll develop a comprehensive understanding of CI/CD workflows and YAML syntax, utilizing GitHub Actions (GA) for automation, training models in a pipeline, versioning datasets with DVC, and performing hyperparameter tuning.
 You'll be introduced to the fundamental concepts of CI/CD and YAML, and gain an understanding of the software development life cycle and key terms like build, test, and deploy. You'll define Continuous Integration, Continuous Delivery, and Continuous Deployment while examining their distinctions. You'll also explore the utility of CI/CD in machine learning and experimentation.
 You'll learn about GA, a powerful platform for implementing CI/CD workflows. You'll discover the various elements of GA, including events, actions, jobs, steps, runners, and context. You'll learn how to define workflows triggered by events such as push and pull requests and customize runner machines. You'll also gain practical experience by setting up basic CI pipelines and understanding the GA log.
 You'll delve deep into Data Version Control (DVC) for versioning datasets, initializing DVC, and tracking datasets. Using DVC pipelines, you'll learn how to train classification models and generate metrics in a reproducible manner.
 You'll then focus on model performance analysis and hyperparameter tuning and gain practical skills in comparing metrics and plots across branches to track changes in model performance. You'll learn how to perform hyperparameter tuning using scikit-learn's GridSearchCV. Additionally, you'll explore automating pull requests with the best model configuration.
+
+## 1. Introduction to Continuous Integration/Continuous Delivery and YAML
+In this chapter, you will explore the essential principles of Continuous Integration/Continuous Delivery (CI/CD) and YAML. You'll grasp the software development life cycle and key terms like build, test, and deploy. Discover the differences between Continuous Integration, Continuous Delivery, and Continuous Deployment. Moreover, you'll investigate the significance of CI/CD in machine learning and experimentation.
+
+## 2. GitHub Actions 
+Get ready to explore GitHub Actions (GHA), an influential platform for executing CI/CD workflows. Uncover the diverse components of GHA, encompassing events, actions, jobs, steps, runners, and context. Gain insights into crafting workflows that activate upon events like push and pull requests, and tailor runner machines. Dive into hands-on learning as you establish fundamental CI pipelines and grasp the intricacies of the GHA log.
+
+# 3. Continuous Integration in Machine Learning
+In this chapter, you'll explore the integration of machine learning model training into a GitHub Action pipeline using Continuous Machine Learning GitHub Action. You'll generate a comprehensive markdown report including model metrics and plots. You will also delve into data versioning in Machine Learning by adopting Data Version Control (DVC) to track data changes. The chapter also covers setting DVC remotes and dataset transfers. Finally, you'll explore DVC pipelines, configuring a DVC YAML file to orchestrate reproducible model training.
+
+# 4. Comparing training runs and Hyperparameter (HP) tuning
+In this chapter, you will direct your attention towards the analysis of model performance and the fine-tuning of hyperparameters. You will acquire practical expertise in comparing metrics and visualizations across different branches to assess changes in model performance. You will conduct hyperparameter tuning using scikit-learn's GridSearchCV. Furthermore, you will delve into the automation of pull requests using the optimal model configuration.
