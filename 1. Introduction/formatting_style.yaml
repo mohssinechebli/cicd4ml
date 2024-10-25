@@ -1,0 +1,20 @@
+courses:
+  - name: Machine Learning 101
+    # Complete prerequisites in block format
+    prerequisites:
+      - Linear Algebra
+      - Python Programming
+      ____
+    # Write key for students
+    ____:
+      - name: John Doe
+        # Write midterm scores in flow format
+        midterm_scores: ____
+        final_score: 88
+      - name: Jane Smith
+        # Complete midterm scores in block format
+        midterm_scores:
+          - 78
+          - 84
+          ____
+        final_score: 92
