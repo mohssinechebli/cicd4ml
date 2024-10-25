@@ -1,2 +1,2 @@
-# CI-CD-4-ML
-The repo ci-cd-for-ml will empower you to streamline your machine learning development processes, enhancing efficiency, reliability, and reproducibility in your projects. This repo offers a template to the integration of machine learning model training into a GitHub Action pipeline using Continuous Machine Learning GitHub Action. The workflow generates a comprehensive markdown report including model metrics and plots in a comment into the PR that triggers the workflow.
+## Abstract
+The repo cicd4ml will empower you to streamline your machine learning development processes, enhancing efficiency, reliability, and reproducibility in your projects. This repo offers a template to the integration of machine learning model training into a GitHub Action pipeline using Continuous Machine Learning GitHub Action. The workflow generates a comprehensive markdown report including model metrics and plots in a comment into the PR that triggers the workflow.
