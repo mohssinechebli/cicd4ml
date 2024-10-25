@@ -24,8 +24,8 @@ jobs:
           
       - name: Train model
         run: |
-          python3 preprocess_dataset.py
-          python3 train.py
+          python3 3_ci_ml/preprocess_dataset.py
+          python3 3_ci_ml/train.py
 
       - name: Write CML report
         env:
