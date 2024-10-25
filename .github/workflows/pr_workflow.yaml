@@ -1,4 +1,4 @@
-name: CI
+name: CI-health-check
 
 on:
   # Specify the event that will trigger the workflow
