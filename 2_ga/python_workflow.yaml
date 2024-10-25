@@ -7,17 +7,17 @@ config:
 workflow:
   # Use the correct block style indicator 
   # while writing commands to run
-  run: ____
+  run: |
     echo "Running script.py"
     python3 script.py
   notify:
     - slack:
         # Reference the Slack channels using 
         # placeholder defined in config block
-        channels: ${{ config.slack.____ }}
+        channels: ${{ config.slack.channels }}
         # Use the correct block style indicator 
         # to send the message without newlines
-        message: ____
+        message: >
           It appears that your run has failed.
           To gain more insights into the failure,
           it is recommended to examine the CI logs.
